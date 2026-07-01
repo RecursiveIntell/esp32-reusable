@@ -1,5 +1,7 @@
-/target/
-**/target/
-*.log
-.DS_Store
-.env
+target/
+*.rs.bk
+Cargo.lock
+.venv/
+__pycache__/
+*.pyc
+.pio/

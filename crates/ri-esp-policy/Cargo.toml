@@ -23,4 +23,4 @@ include = [
 ]
 
 [dependencies]
-ri-esp-core = { path = "../ri-esp-core", version = "0.1.0" }
+ri-esp-core = { path = "../ri-esp-core", version = "0.1.1" }

@@ -24,4 +24,4 @@ include = [
 
 [dependencies]
 heapless.workspace = true
-ri-esp-policy = { path = "../ri-esp-policy", version = "0.1.0" }
+ri-esp-policy = { path = "../ri-esp-policy", version = "0.1.1" }

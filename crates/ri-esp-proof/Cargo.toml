@@ -24,7 +24,7 @@ include = [
 
 [dependencies]
 heapless.workspace = true
-ri-esp-core = { path = "../ri-esp-core", version = "0.1.0" }
-ri-esp-local-language = { path = "../ri-esp-local-language", version = "0.1.0" }
-ri-esp-policy = { path = "../ri-esp-policy", version = "0.1.0" }
-ri-esp-tiered = { path = "../ri-esp-tiered", version = "0.1.0" }
+ri-esp-core = { path = "../ri-esp-core", version = "0.1.1" }
+ri-esp-local-language = { path = "../ri-esp-local-language", version = "0.1.1" }
+ri-esp-policy = { path = "../ri-esp-policy", version = "0.1.1" }
+ri-esp-tiered = { path = "../ri-esp-tiered", version = "0.1.1" }
