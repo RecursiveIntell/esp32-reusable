@@ -228,12 +228,14 @@ impl ProofEngine {
         ctx: PolicyContext<'_>,
         ai_route: &str,
     ) -> ProofReceipt {
+        let reading = ctx.reading;
+        let uptime_ms = ctx.uptime_ms;
         let policy_decision = SensorPolicy::default().evaluate(ctx);
         let route_reason = route_reason_from_policy(policy_decision.reason);
         self.build_receipt_with_language(BuildReceiptInput {
             device_id,
-            timestamp_ms: ctx.uptime_ms,
-            sensor: ctx.reading,
+            timestamp_ms: uptime_ms,
+            sensor: reading,
             sentinel_confidence: policy_decision.confidence,
             ai_route,
             route_reason,
