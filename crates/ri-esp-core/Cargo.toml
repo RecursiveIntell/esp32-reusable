@@ -1,0 +1,26 @@
+[package]
+name = "ri-esp-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "no_std shared traits and types for ESP32/S3 sensor nodes, displays, and endpoints"
+repository = "https://github.com/RecursiveIntell/esp32-reusable"
+homepage = "https://github.com/RecursiveIntell/esp32-reusable"
+documentation = "https://docs.rs/ri-esp-core"
+readme = "README.md"
+keywords = ["esp32", "no-std", "embedded", "sensors", "iot"]
+categories = ["embedded", "no-std"]
+include = [
+  "src/**",
+  "tests/**",
+  "examples/**",
+  "README.md",
+  "assets/**",
+  "Cargo.toml",
+  "LICENSE-MIT",
+  "LICENSE-APACHE",
+]
+
+[dependencies]
+heapless.workspace = true

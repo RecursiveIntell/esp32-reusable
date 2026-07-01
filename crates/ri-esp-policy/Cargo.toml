@@ -1,0 +1,26 @@
+[package]
+name = "ri-esp-policy"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "no_std deterministic sensor-policy crate for ESP32/S3 physical-AI endpoint: maps readings to canonical prompts"
+repository = "https://github.com/RecursiveIntell/esp32-reusable"
+homepage = "https://github.com/RecursiveIntell/esp32-reusable"
+documentation = "https://docs.rs/ri-esp-policy"
+readme = "README.md"
+keywords = ["esp32", "policy", "no-std", "sensors", "iot"]
+categories = ["embedded", "no-std"]
+include = [
+  "src/**",
+  "tests/**",
+  "examples/**",
+  "README.md",
+  "assets/**",
+  "Cargo.toml",
+  "LICENSE-MIT",
+  "LICENSE-APACHE",
+]
+
+[dependencies]
+ri-esp-core = { path = "../ri-esp-core", version = "0.1.0" }

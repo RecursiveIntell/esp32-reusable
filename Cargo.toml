@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = [
+  "crates/ri-esp-core",
+  "crates/ri-esp-board-profiles",
+  "crates/ri-esp-display",
+  "crates/ri-esp-llm",
+  "crates/ri-esp-tiered",
+  "crates/ri-esp-policy",
+  "crates/ri-esp-local-language",
+  "crates/ri-esp-proof",
+]
+
+[workspace.package]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+version = "0.1.0"
+authors = ["RecursiveIntell"]
+
+[workspace.dependencies]
+embedded-hal = "1.0.0"
+heapless = "0.8"
+libm = "0.2"

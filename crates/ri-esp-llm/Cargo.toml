@@ -1,0 +1,27 @@
+[package]
+name = "ri-esp-llm"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "no_std embedded inference primitives: int4 packing, KV cache, RNN helpers, sampling, compressed attention"
+repository = "https://github.com/RecursiveIntell/esp32-reusable"
+homepage = "https://github.com/RecursiveIntell/esp32-reusable"
+documentation = "https://docs.rs/ri-esp-llm"
+readme = "README.md"
+keywords = ["esp32", "llm", "no-std", "embedded", "int4"]
+categories = ["embedded", "no-std"]
+include = [
+  "src/**",
+  "tests/**",
+  "examples/**",
+  "README.md",
+  "assets/**",
+  "Cargo.toml",
+  "LICENSE-MIT",
+  "LICENSE-APACHE",
+]
+
+[dependencies]
+heapless.workspace = true
+libm.workspace = true

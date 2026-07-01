@@ -1,0 +1,25 @@
+[package]
+name = "ri-esp-board-profiles"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "no_std board/pin profiles and known hardware pitfalls for ESP32 and ESP32-S3"
+repository = "https://github.com/RecursiveIntell/esp32-reusable"
+homepage = "https://github.com/RecursiveIntell/esp32-reusable"
+documentation = "https://docs.rs/ri-esp-board-profiles"
+readme = "README.md"
+keywords = ["esp32", "no-std", "embedded", "pins", "boards"]
+categories = ["embedded", "no-std"]
+include = [
+  "src/**",
+  "tests/**",
+  "examples/**",
+  "README.md",
+  "assets/**",
+  "Cargo.toml",
+  "LICENSE-MIT",
+  "LICENSE-APACHE",
+]
+
+[dependencies]
