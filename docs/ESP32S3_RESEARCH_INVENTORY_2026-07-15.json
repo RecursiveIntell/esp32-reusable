@@ -1,0 +1,1256 @@
+{
+  "document_inventory": {
+    "count": 137,
+    "entries": [
+      {
+        "bytes": 24764,
+        "category": "research_plans",
+        "path": "ESP32S3_NEXT_RESEARCH_2026-07-03.md",
+        "title": "ESP32-S3 cluster next-step research report \u2014 2026-07-03"
+      },
+      {
+        "bytes": 395,
+        "category": "architecture_contracts_docs",
+        "path": "docs/codex-runs/ARCHIVAL_POLICY.md",
+        "title": "Codex Run Archival Policy"
+      },
+      {
+        "bytes": 259,
+        "category": "architecture_contracts_docs",
+        "path": "dying-llm-esp32s3-i2c/.cargo/config.toml",
+        "title": null
+      },
+      {
+        "bytes": 952,
+        "category": "manifests_model_metadata",
+        "path": "dying-llm-esp32s3-i2c/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 27,
+        "category": "architecture_contracts_docs",
+        "path": "dying-llm-esp32s3-i2c/rust-toolchain.toml",
+        "title": null
+      },
+      {
+        "bytes": 5879,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/CRATE_DISTILLATION.md",
+        "title": "ESP32/ESP32-S3 reusable crate distillation"
+      },
+      {
+        "bytes": 455,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 12930,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/EXPANDED_HARDWARE_STACK_USE_CASES_2026-06-30.md",
+        "title": "Expanded use cases for RecursiveIntell + ESP32/S3 + UNO Q + GTX 1070"
+      },
+      {
+        "bytes": 13693,
+        "category": "research_plans",
+        "path": "esp32-reusable/HIGH_ROI_ESP32_STACK_RESEARCH_2026-06-30.md",
+        "title": "High-ROI ESP32 / ESP32-S3 paths for the RecursiveIntell stack"
+      },
+      {
+        "bytes": 3557,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/README.md",
+        "title": "ESP32 Reusable Crates"
+      },
+      {
+        "bytes": 1329,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/contracts/sensor_policy_s3_local_language_v1.json",
+        "title": null
+      },
+      {
+        "bytes": 692,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-board-profiles/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1412,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-board-profiles/README.md",
+        "title": "ri-esp-board-profiles"
+      },
+      {
+        "bytes": 703,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-core/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1371,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-core/README.md",
+        "title": "ri-esp-core"
+      },
+      {
+        "bytes": 744,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-display/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1380,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-display/README.md",
+        "title": "ri-esp-display"
+      },
+      {
+        "bytes": 744,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-llm/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1353,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-llm/README.md",
+        "title": "ri-esp-llm"
+      },
+      {
+        "bytes": 813,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-local-language/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1709,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-local-language/README.md",
+        "title": "ri-esp-local-language"
+      },
+      {
+        "bytes": 769,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-policy/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1710,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-policy/README.md",
+        "title": "ri-esp-policy"
+      },
+      {
+        "bytes": 1009,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-proof/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1523,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-reusable/crates/ri-esp-proof/PROOF_RECEIPT_SCHEMA.md",
+        "title": "ri-esp-proof receipt schema v1"
+      },
+      {
+        "bytes": 1835,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-proof/README.md",
+        "title": "ri-esp-proof"
+      },
+      {
+        "bytes": 704,
+        "category": "manifests_model_metadata",
+        "path": "esp32-reusable/crates/ri-esp-tiered/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 1362,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-reusable/crates/ri-esp-tiered/README.md",
+        "title": "ri-esp-tiered"
+      },
+      {
+        "bytes": 13746,
+        "category": "research_plans",
+        "path": "esp32-reusable/docs/plans/2026-07-01-sensor-policy-s3-local-language-crate-modularization.md",
+        "title": "Sensor Policy -> S3 Local Language Crate Modularization Plan"
+      },
+      {
+        "bytes": 2415,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/CLUSTER_FINAL_RECHECK_2026-07-03.md",
+        "title": "ESP32-S3 cluster final recheck \u2014 2026-07-03"
+      },
+      {
+        "bytes": 8499,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/CURATED_H320_HARDWARE_REPORT_2026-07-01.md",
+        "title": "ESP32-S3 curated H320 status model report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 6790,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/DOMAIN_RETRAINING_REPORT_2026-07-01.md",
+        "title": "Domain retraining report \u2014 ESP32-S3 local status LSTM \u2014 2026-07-01"
+      },
+      {
+        "bytes": 4465,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/ESP_NN_ALIGNMENT_FIX_REPORT_2026-07-01.md",
+        "title": "ESP-NN alignment fix report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 4259,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/ESP_NN_LSTM_P7_REPORT.md",
+        "title": "ESP-NN LSTM p7 integration report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 5074,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/FINAL_H320_UTILITY_TEST_REPORT_2026-07-01.md",
+        "title": "Final H320 utility test report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 5566,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/HARDWARE_DOMAIN_H256_REPORT_2026-07-01.md",
+        "title": "ESP32-S3 domain H256 hardware deployment report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 1650,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/LOCAL_SENTINEL_POLICY_RECEIPT_2026-07-01.md",
+        "title": "Local sentinel policy receipt \u2014 2026-07-01"
+      },
+      {
+        "bytes": 5351,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/P16_SRAM_DUALCORE_REPORT_2026-07-01.md",
+        "title": "ESP32-S3 LSTM p16 SRAM Tiling + Dual-Core Report \u2014 2026-07-01"
+      },
+      {
+        "bytes": 3069,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/P22_INT4_SIMD_KERNEL_RECEIPT_2026-07-02.md",
+        "title": "P22 int4 SIMD recurrent kernel receipt \u2014 2026-07-02"
+      },
+      {
+        "bytes": 17510,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/README.md",
+        "title": "ESP32-S3 On-Device Language Model \u2014 39.52 chars/s (~9.9 BPE tok/s)"
+      },
+      {
+        "bytes": 33587,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/THREE_BOARD_CLUSTER_RECEIPT_2026-07-02.md",
+        "title": "Three-Board ESP32-S3 Cluster Receipt (2026-07-02)"
+      },
+      {
+        "bytes": 5363,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/TINYSTORIES_H512_DATA_OTA_LIVE_RECEIPT_2026-07-03.md",
+        "title": "TinyStories H512 data OTA live receipt \u2014 2026-07-03"
+      },
+      {
+        "bytes": 5521,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/TINYSTORIES_H512_DISTRIBUTED_GENERATION_LIVE_RECEIPT_2026-07-03.md",
+        "title": "TinyStories H512 distributed generation live receipt \u2014 2026-07-03"
+      },
+      {
+        "bytes": 4630,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/TINYSTORIES_H512_HARDWARE_REPORT_2026-07-03.md",
+        "title": "TinyStories H512 ESP32-S3 hardware report \u2014 2026-07-03"
+      },
+      {
+        "bytes": 4606,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/TINYSTORIES_H512_LSTM_GATE_SHARD_LIVE_RECEIPT_2026-07-03.md",
+        "title": "TinyStories H512 LSTM gate-shard live receipt \u2014 2026-07-03"
+      },
+      {
+        "bytes": 4272,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/TINYSTORIES_H512_OTA_SHARD_PLAN_2026-07-03.md",
+        "title": "TinyStories H512 OTA shard update path"
+      },
+      {
+        "bytes": 7155,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/USEFULNESS_REPORT_2026-07-01.md",
+        "title": "ESP32-S3 6.34M LSTM usefulness probe \u2014 2026-07-01"
+      },
+      {
+        "bytes": 1225,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/WIFI_CLUSTER_HEALTH_RECEIPT_2026-07-03.md",
+        "title": "ESP32-S3 WiFi cluster health receipt \u2014 2026-07-03"
+      },
+      {
+        "bytes": 9959,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/curated_h320_all_int8_usefulness_probe.json",
+        "title": null
+      },
+      {
+        "bytes": 8691,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/domain_h256_all_int8_probe.json",
+        "title": null
+      },
+      {
+        "bytes": 8621,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/domain_h256_current_probe_after_flash.json",
+        "title": null
+      },
+      {
+        "bytes": 9991,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/domain_h256_usefulness_probe_receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 11193,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/tinystories_h512_probe.json",
+        "title": null
+      },
+      {
+        "bytes": 9423,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/analysis/usefulness_probe_receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 5723,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/archive/benchmarks/benchmarks-current-2026-07-02/p0_p4_cached_internal_dtype_fastpath-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 5181,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/archive/receipts/SRAM_COPY_ELIMINATION_RECEIPT_2026-07-02.md",
+        "title": "SRAM Copy Elimination Receipt \u2014 2026-07-02"
+      },
+      {
+        "bytes": 6909,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/SPEED_REPORT_2026-06-30.md",
+        "title": "ESP32-S3 LSTM Speed Benchmark Report \u2014 2026-06-30"
+      },
+      {
+        "bytes": 3969,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p0_p4/p0_p4_cached_internal_dtype_fastpath-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4092,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p10_domain_h256_all_int8/p10_domain_h256_all_int8-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4119,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p11_domain_h256_all_int8_scalar/p11_domain_h256_all_int8_scalar-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4141,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p12_domain_h256_espnn_aligned_guarded/p12_domain_h256_espnn_aligned_guarded-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4166,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p13_curated_h320_all_int8_espnn_aligned_guarded/p13_curated_h320_all_int8_espnn_aligned_guarded-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4139,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p14_curated_h320_all_int8_emit_first/p14_curated_h320_all_int8_emit_first-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 5515,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p15_curated_h320_stopped_utility/p15_curated_h320_stopped_utility-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 2042,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p15_curated_h320_stopped_utility_extra2/p15_curated_h320_stopped_utility-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 2042,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p15_curated_h320_stopped_utility_extra3/p15_curated_h320_stopped_utility-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 5717,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p22_i4_wih_whh_simd_h256/p22_i4_wih_whh_simd_h256-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 3952,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p5_fixedpoint_lut/p5_fixedpoint_lut-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 1547,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p6_final/p6_psram_weights_fixedpoint_lut_final-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4018,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p6_psram_weights/p6_psram_weights_fixedpoint_lut-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4011,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p7_o3_psram_weights/p7_o3_psram_weights_fixedpoint_lut-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4110,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p8_domain_h256/p8_domain_h256-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 3997,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p8_iram/p8_iram_psram_fixedpoint_lut-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 4099,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/p9_domain_h256_topk/p9_domain_h256_topk-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 2004,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/benchmarks/tinystories-h512-2026-07-03/tinystories_h512_p7_i8_espnn-summary.json",
+        "title": null
+      },
+      {
+        "bytes": 7560,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/CLUSTER_AP_OTA_PROVISIONING_PLAN_2026-07-03.md",
+        "title": "Coordinator AP + OTA Provisioning Plan (2026-07-03)"
+      },
+      {
+        "bytes": 4713,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/CLUSTER_WIFI_FLASH_MANIFEST_2026-07-03.md",
+        "title": "Cluster WiFi Ping Flash Manifest \u2014 2026-07-03"
+      },
+      {
+        "bytes": 2847,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/H768_LAYER_SHARD_PLAN_2026-07-05.md",
+        "title": "ESP32-S3 H768 Layer-Shard 3-Board Implementation Plan"
+      },
+      {
+        "bytes": 8299,
+        "category": "research_plans",
+        "path": "esp32-s3-lstm-proof/docs/H768_SPEED_OPTIMIZATION_RESEARCH_2026-07-05.md",
+        "title": "ESP32-S3 Cluster H768 Speed Optimization Research"
+      },
+      {
+        "bytes": 6807,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/MAX_PERFORMANCE_CLUSTER_PLAN_2026-07-04.md",
+        "title": "ESP32-S3 Cluster Maximum Performance Plan"
+      },
+      {
+        "bytes": 7367,
+        "category": "research_plans",
+        "path": "esp32-s3-lstm-proof/docs/MAX_PERFORMANCE_EXECUTION_PLAN_2026-07-05.md",
+        "title": "ESP32-S3 Cluster Maximum Performance Execution Plan"
+      },
+      {
+        "bytes": 3228,
+        "category": "research_plans",
+        "path": "esp32-s3-lstm-proof/docs/MAX_PERFORMANCE_PLAN_V2_2026-07-05.md",
+        "title": "ESP32-S3 Cluster Maximum Performance Plan v2"
+      },
+      {
+        "bytes": 10573,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/docs/THREE_BOARD_SYSTEM_V2_TARGET_2026-07-03.md",
+        "title": "Three-board ESP32-S3 LM system v2 target \u2014 2026-07-03"
+      },
+      {
+        "bytes": 11019,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/WIFI_OPTIMIZATION_RESEARCH_2026-07-04.md",
+        "title": "WiFi Optimization Research for ESP32-S3 Distributed Inference Cluster"
+      },
+      {
+        "bytes": 11474,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/WIRELESS_TRANSPORT_RECOVERY_PLAN_2026-07-04.md",
+        "title": "ESP32-S3 Distributed H512 Wireless Transport Recovery Plan"
+      },
+      {
+        "bytes": 17566,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/docs/plans/2026-06-30-speed-optimization-and-benchmark-plan.md",
+        "title": "ESP32-S3 LSTM Speed Optimization and Benchmark Plan"
+      },
+      {
+        "bytes": 36591,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/plans/2026-07-02-three-board-esp32s3-cluster-plan.md",
+        "title": "3-Board ESP32-S3 TinyStories Cluster Implementation Plan"
+      },
+      {
+        "bytes": 5431,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/plans/2026-07-03-h256-lstm-cluster-fable-design.md",
+        "title": "H256 LSTM Cluster Phase 3 Design Review (Fable, 2026-07-03)"
+      },
+      {
+        "bytes": 3956,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/plans/claude-code-cluster-routing.md",
+        "title": "Claude Code Routing for 3-Board ESP32-S3 Cluster"
+      },
+      {
+        "bytes": 5653,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/plans/codex-cluster-routing.md",
+        "title": "Codex / Fable Routing for 3-Board ESP32-S3 Cluster"
+      },
+      {
+        "bytes": 5276,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/docs/plans/hybrid-codex-fable-cluster-routing.md",
+        "title": "Hybrid Codex / Claude-Fable Routing for 3-Board ESP32-S3 Cluster"
+      },
+      {
+        "bytes": 317,
+        "category": "manifests_model_metadata",
+        "path": "esp32-s3-lstm-proof/partitions.csv",
+        "title": null
+      },
+      {
+        "bytes": 226,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/partitions_h768.csv",
+        "title": null
+      },
+      {
+        "bytes": 9327,
+        "category": "manifests_model_metadata",
+        "path": "esp32-s3-lstm-proof/platformio.ini",
+        "title": null
+      },
+      {
+        "bytes": 959,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_2board_aggregate_20260705.json",
+        "title": null
+      },
+      {
+        "bytes": 472,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_2board_aggregate_20260705.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 701,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_agg2_20260705.json",
+        "title": null
+      },
+      {
+        "bytes": 452,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_agg2_20260705.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 701,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_both_boards_20260705.json",
+        "title": null
+      },
+      {
+        "bytes": 452,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_both_boards_20260705.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 701,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_v4_20260705.json",
+        "title": null
+      },
+      {
+        "bytes": 452,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_64char_v4_20260705.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 1217,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_gen_cluster_serial_20260704T034034Z.json",
+        "title": null
+      },
+      {
+        "bytes": 490,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_gen_cluster_serial_20260704T034034Z.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 960,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_under1k_usb_boards_20260704.json",
+        "title": null
+      },
+      {
+        "bytes": 471,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-s3-lstm-proof/receipts/h512_local_under1k_usb_boards_20260704.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 1173,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/receipts/local_gen_cluster_serial_20260703T225103Z.json",
+        "title": null
+      },
+      {
+        "bytes": 490,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/receipts/local_gen_cluster_serial_20260703T225103Z.md",
+        "title": "ESP32-S3 cluster aggregate benchmark report"
+      },
+      {
+        "bytes": 559,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/runs/curated_status_h320_l3/corpus_manifest.json",
+        "title": null
+      },
+      {
+        "bytes": 12235,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/runs/curated_status_h320_l3/summary.json",
+        "title": null
+      },
+      {
+        "bytes": 6515,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/runs/curated_status_h320_l3/training_log.json",
+        "title": null
+      },
+      {
+        "bytes": 2196,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/runs/domain_lstm_h256_l3_s1200/summary.json",
+        "title": null
+      },
+      {
+        "bytes": 1362,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-s3-lstm-proof/runs/domain_lstm_h256_l3_s1200/training_log.json",
+        "title": null
+      },
+      {
+        "bytes": 1161,
+        "category": "cluster_sharding_historical",
+        "path": "esp32-s3-lstm-proof/shards/tinystories-h512-lstm/shard_receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 7645,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/README.md",
+        "title": "ESP32 Sensor Hub"
+      },
+      {
+        "bytes": 4887,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/READY_TO_FLASH.md",
+        "title": "ESP32 temp/humidity + OLED + Gemma4 flash readiness"
+      },
+      {
+        "bytes": 3061,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-sensor-hub/RECEIPT_WORK_2026-07-01.md",
+        "title": "ESP32 physical AI endpoint receipt work \u2014 2026-07-01"
+      },
+      {
+        "bytes": 4561,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-sensor-hub/SENSOR_POLICY_S3_HARD_TEST_REPORT_2026-07-01.md",
+        "title": "Sensor-policy -> S3 local-language hard test \u2014 2026-07-01"
+      },
+      {
+        "bytes": 5909,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/SENSOR_POLICY_S3_LOCAL_LANGUAGE_INTEGRATION_2026-07-01.md",
+        "title": "Sensor-policy -> ESP32-S3 local-language integration \u2014 2026-07-01"
+      },
+      {
+        "bytes": 1329,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/contracts/sensor_policy_s3_local_language_v1.json",
+        "title": null
+      },
+      {
+        "bytes": 1914,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/docs/architecture.md",
+        "title": "Architecture / Use Cases"
+      },
+      {
+        "bytes": 884,
+        "category": "architecture_contracts_docs",
+        "path": "esp32-sensor-hub/docs/wiring.md",
+        "title": "Wiring"
+      },
+      {
+        "bytes": 523,
+        "category": "manifests_model_metadata",
+        "path": "esp32-sensor-hub/platformio.ini",
+        "title": null
+      },
+      {
+        "bytes": 5807,
+        "category": "hardware_evidence_benchmarks",
+        "path": "esp32-sensor-hub/sensor_policy_s3_hard_test_receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 264,
+        "category": "architecture_contracts_docs",
+        "path": "esp32s3-edge-ai/edge-ai-starter/.cargo/config.toml",
+        "title": null
+      },
+      {
+        "bytes": 28,
+        "category": "architecture_contracts_docs",
+        "path": "esp32s3-edge-ai/edge-ai-starter/.clippy.toml",
+        "title": null
+      },
+      {
+        "bytes": 1359,
+        "category": "manifests_model_metadata",
+        "path": "esp32s3-edge-ai/edge-ai-starter/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 3472,
+        "category": "architecture_contracts_docs",
+        "path": "esp32s3-edge-ai/edge-ai-starter/README.md",
+        "title": "ESP32-S3 Edge AI Starter (Rust)"
+      },
+      {
+        "bytes": 28,
+        "category": "architecture_contracts_docs",
+        "path": "esp32s3-edge-ai/edge-ai-starter/rust-toolchain.toml",
+        "title": null
+      },
+      {
+        "bytes": 265,
+        "category": "architecture_contracts_docs",
+        "path": "tiered-edge-ai/esp32-s3/.cargo/config.toml",
+        "title": null
+      },
+      {
+        "bytes": 2007,
+        "category": "manifests_model_metadata",
+        "path": "tiered-edge-ai/esp32-s3/Cargo.toml",
+        "title": null
+      },
+      {
+        "bytes": 4114,
+        "category": "hardware_evidence_benchmarks",
+        "path": "tiered-edge-ai/esp32-s3/docs/llm-limit-bench-compressed-score-receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 2029,
+        "category": "hardware_evidence_benchmarks",
+        "path": "tiered-edge-ai/esp32-s3/docs/llm-limit-bench-receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 3436,
+        "category": "research_plans",
+        "path": "tiered-edge-ai/esp32-s3/docs/plans/2026-06-29-compressed-domain-attention-bench.md",
+        "title": "ESP32-S3 Compressed-Domain Attention Bench Implementation Plan"
+      },
+      {
+        "bytes": 430,
+        "category": "manifests_model_metadata",
+        "path": "tiered-edge-ai/esp32-s3/docs/trained-char-lm-meta.json",
+        "title": null
+      },
+      {
+        "bytes": 3000,
+        "category": "hardware_evidence_benchmarks",
+        "path": "tiered-edge-ai/esp32-s3/docs/trained-char-lm-receipt.json",
+        "title": null
+      },
+      {
+        "bytes": 27,
+        "category": "architecture_contracts_docs",
+        "path": "tiered-edge-ai/esp32-s3/rust-toolchain.toml",
+        "title": null
+      }
+    ]
+  },
+  "esp32_related_cargo_manifests": [
+    {
+      "dependencies": [
+        "critical-section",
+        "defmt",
+        "esp-alloc",
+        "esp-backtrace",
+        "esp-bootloader-esp-idf",
+        "esp-hal",
+        "esp-println",
+        "libm",
+        "microflow",
+        "nalgebra"
+      ],
+      "edition": "2024",
+      "package": "edge-ai-starter",
+      "path": "esp32s3-edge-ai/edge-ai-starter/Cargo.toml",
+      "version": "0.1.0"
+    },
+    {
+      "dependencies": [
+        "critical-section",
+        "defmt",
+        "embassy-executor",
+        "embassy-net",
+        "embassy-time",
+        "embedded-io",
+        "embedded-io-async",
+        "esp-alloc",
+        "esp-backtrace",
+        "esp-bootloader-esp-idf",
+        "esp-hal",
+        "esp-println",
+        "esp-radio",
+        "esp-rtos",
+        "heapless",
+        "libm",
+        "microflow",
+        "nalgebra",
+        "spec-core",
+        "static_cell"
+      ],
+      "edition": "2024",
+      "package": "tiered-sentinel",
+      "path": "tiered-edge-ai/esp32-s3/Cargo.toml",
+      "version": "0.1.0"
+    },
+    {
+      "dependencies": [
+        "critical-section",
+        "defmt",
+        "embedded-hal",
+        "esp-alloc",
+        "esp-backtrace",
+        "esp-bootloader-esp-idf",
+        "esp-hal",
+        "esp-println",
+        "heapless",
+        "libm"
+      ],
+      "edition": "2021",
+      "package": "dying-llm",
+      "path": "dying-llm/Cargo.toml",
+      "version": "0.2.0"
+    },
+    {
+      "dependencies": [
+        "heapless",
+        "libm"
+      ],
+      "edition": "2021",
+      "package": "spec-core",
+      "path": "spec-engine/core/Cargo.toml",
+      "version": "0.1.0"
+    },
+    {
+      "dependencies": [
+        "critical-section",
+        "defmt",
+        "embedded-hal",
+        "esp-alloc",
+        "esp-backtrace",
+        "esp-bootloader-esp-idf",
+        "esp-hal",
+        "esp-println",
+        "heapless",
+        "libm"
+      ],
+      "edition": "2021",
+      "package": "dying-llm",
+      "path": "dying-llm-esp32s3-i2c/Cargo.toml",
+      "version": "0.1.0"
+    },
+    {
+      "dependencies": [],
+      "edition": null,
+      "package": null,
+      "path": "esp32-reusable/Cargo.toml",
+      "version": null
+    },
+    {
+      "dependencies": [
+        "heapless"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-core",
+      "path": "esp32-reusable/crates/ri-esp-core/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-board-profiles",
+      "path": "esp32-reusable/crates/ri-esp-board-profiles/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "embedded-hal",
+        "heapless"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-display",
+      "path": "esp32-reusable/crates/ri-esp-display/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "heapless",
+        "libm"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-llm",
+      "path": "esp32-reusable/crates/ri-esp-llm/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "heapless"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-tiered",
+      "path": "esp32-reusable/crates/ri-esp-tiered/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "heapless",
+        "ri-esp-core",
+        "ri-esp-local-language",
+        "ri-esp-policy",
+        "ri-esp-tiered"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-proof",
+      "path": "esp32-reusable/crates/ri-esp-proof/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "heapless",
+        "ri-esp-policy"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-local-language",
+      "path": "esp32-reusable/crates/ri-esp-local-language/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    },
+    {
+      "dependencies": [
+        "ri-esp-core"
+      ],
+      "edition": {
+        "workspace": true
+      },
+      "package": "ri-esp-policy",
+      "path": "esp32-reusable/crates/ri-esp-policy/Cargo.toml",
+      "version": {
+        "workspace": true
+      }
+    }
+  ],
+  "exclusions": [
+    "target/",
+    ".pio/",
+    ".git/",
+    "node_modules/",
+    ".venv/",
+    "vendored lib/",
+    "raw benchmark run JSON when a summary exists",
+    "docs/source-packages archive duplicates"
+  ],
+  "generated_at": "2026-07-15T00:30:43-05:00",
+  "json_validation": {
+    "candidate_count": 45,
+    "explicit_failure_fields": [],
+    "invalid": [],
+    "valid_count": 45
+  },
+  "model_artifacts": {
+    "count": 24,
+    "entries": [
+      {
+        "bytes": 4319699,
+        "path": "dying-llm/training/checkpoints/model_1m.pt",
+        "sha256": "75f983d72163625a01d5b5fa698a57f1f49d21b9a3c9cdc5fb523a560cb78983"
+      },
+      {
+        "bytes": 19471371,
+        "path": "dying-llm/training/checkpoints/model_3m.pt",
+        "sha256": "23f39081b0383ed3f9b98a617db74e4eb6c93e06176ced65f95d108bba114287"
+      },
+      {
+        "bytes": 2510076,
+        "path": "esp32-s3-lstm-proof/runs/curated_status_h320_l3/weights/curated_status_h320_l3_all_int8.bin",
+        "sha256": "fb042c0aa011475e0a31d2c5d271dde57c504aa1bdcdb02ecd3ce0010ebf2b7a"
+      },
+      {
+        "bytes": 1885116,
+        "path": "esp32-s3-lstm-proof/runs/curated_status_h320_l3/weights/curated_status_h320_l3_mixed_lstm_safe.bin",
+        "sha256": "2b7357f7423672bf233961fabcc62cd0eabdc5685d8202ae13fe1fabf728168c"
+      },
+      {
+        "bytes": 6388791,
+        "path": "esp32-s3-lstm-proof/runs/domain_lstm_h256_l3_s1200/best.pt",
+        "sha256": "d8dc536828109157042a7309be448947e7bcda7d169c562278be034145943cc4"
+      },
+      {
+        "bytes": 1614972,
+        "path": "esp32-s3-lstm-proof/runs/domain_lstm_h256_l3_s1200/weights/domain_lstm_h256_l3_all_int8.bin",
+        "sha256": "770ed9012099a04abf7aebc7cbbe279abd289b27b181bc364e48ea491d3dbb6c"
+      },
+      {
+        "bytes": 1213308,
+        "path": "esp32-s3-lstm-proof/runs/domain_lstm_h256_l3_s1200/weights/domain_lstm_h256_l3_mixed_lstm_safe.bin",
+        "sha256": "7810ccad211abcca10f6cd5761bd4adc1a2afafea3e0d14110d7ee4cec81a8b3"
+      },
+      {
+        "bytes": 1614972,
+        "path": "esp32-s3-lstm-proof/uno_q_h256_l3_33vocab.bin",
+        "sha256": "4167760a4791cf8c38e9e88a6b1ed87c5d1514825824bcf01703d2c27418706b"
+      },
+      {
+        "bytes": 1610328,
+        "path": "esp32-s3-lstm-proof/uno_q_trained_h256.bin",
+        "sha256": "403a6f280cba80417e930703ff2820f4ba996d88b37b440308b5cde85e3b1aca"
+      },
+      {
+        "bytes": 2510076,
+        "path": "esp32-s3-lstm-proof/weights.bin",
+        "sha256": "fb042c0aa011475e0a31d2c5d271dde57c504aa1bdcdb02ecd3ce0010ebf2b7a"
+      },
+      {
+        "bytes": 4785276,
+        "path": "esp32-s3-lstm-proof/weights_h512_p7_backup_709ff8.bin",
+        "sha256": "709ff8a921612f0d1a075ce586d3355c895b16a100d12d8f74bb3367cdf83c61"
+      },
+      {
+        "bytes": 14282368,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories.bin",
+        "sha256": "4b7e77a04b345ba993cd668d14b5ace28f62520461c258144070ca63972641bf"
+      },
+      {
+        "bytes": 56911791,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories.bin.pt",
+        "sha256": "762d76acde2641d3ebb72ac15b4accaa7b1511ceed2e7a69cfdf1d1cb5c03a7d"
+      },
+      {
+        "bytes": 4795760,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_layer_shard_board0.bin",
+        "sha256": "373f874d896e4024ed1e74889cd2f3e0a15448b31b941dd4f132ea2d11c38dc5"
+      },
+      {
+        "bytes": 4743316,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_layer_shard_board1.bin",
+        "sha256": "9bf64987c25d9493624d453ac7fb496c9b60562981c88edd381007a7702928b1"
+      },
+      {
+        "bytes": 4743316,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_layer_shard_board2.bin",
+        "sha256": "53db1e6287889418727f612d278613204e0102b4709444984d1d8b3fbff33dbe"
+      },
+      {
+        "bytes": 14282368,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_v2.bin",
+        "sha256": "cc2e69d5d0a9299ab0f13be562c1988ecdaef311c02346fcde18f65fb570a344"
+      },
+      {
+        "bytes": 56911854,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_v2.bin.pt",
+        "sha256": "4d3c7673e80fdfc94e2ec5c73b1cd06ee5c7712ad4f240805964e6fbc8bec767"
+      },
+      {
+        "bytes": 4795760,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_v2_layer_shard_board0.bin",
+        "sha256": "18189c8b3478f3571e085c3b3fb3d72cf836f3754a36592db51c5612649081a5"
+      },
+      {
+        "bytes": 4743316,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_v2_layer_shard_board1.bin",
+        "sha256": "92f0b2d0bd7049130aea4de577242c7b11a02c4387362bea715a6441488cffcc"
+      },
+      {
+        "bytes": 4743316,
+        "path": "esp32-s3-lstm-proof/weights_h768_tinystories_v2_layer_shard_board2.bin",
+        "sha256": "6f751ae1b2dc80065d70e5ebf6cd63a7cb45e4fef288e4c498f6bb3d7180e4f6"
+      },
+      {
+        "bytes": 1614972,
+        "path": "esp32-s3-lstm-proof/weights_p12_h256_backup_770ed901.bin",
+        "sha256": "770ed9012099a04abf7aebc7cbbe279abd289b27b181bc364e48ea491d3dbb6c"
+      },
+      {
+        "bytes": 2680,
+        "path": "esp32s3-edge-ai/edge-ai-starter/models/sine.tflite",
+        "sha256": "780cc6ff8ecec39193e3f32a877af73385c9d6abc39f47d0e846a22d808f65df"
+      },
+      {
+        "bytes": 2680,
+        "path": "tiered-edge-ai/esp32-s3/models/sine.tflite",
+        "sha256": "780cc6ff8ecec39193e3f32a877af73385c9d6abc39f47d0e846a22d808f65df"
+      }
+    ]
+  },
+  "repositories": [
+    {
+      "dirty_entries": [],
+      "exists": true,
+      "git": true,
+      "head": "3e2e710593c7e80d342a43cb0046fb1a03a95a5b",
+      "origin": "https://github.com/RecursiveIntell/esp32-reusable.git",
+      "path": "/home/sikmindz/projects/esp32-reusable"
+    },
+    {
+      "dirty_entries": [
+        " M platformio.ini",
+        "?? receipts/h512_local_64char_agg2_20260705.json",
+        "?? receipts/h512_local_64char_agg2_20260705.md",
+        "?? receipts/h512_local_64char_both_boards_20260705.json",
+        "?? receipts/h512_local_64char_both_boards_20260705.md",
+        "?? sdkconfig.defaults",
+        "?? weights_h768_tinystories.bin.pt",
+        "?? weights_h768_tinystories_v2.bin.pt"
+      ],
+      "exists": true,
+      "git": true,
+      "head": "9183c810c9efa5f897a32c475237063abf7b647a",
+      "origin": "https://github.com/RecursiveIntell/esp32-s3-lstm-proof.git",
+      "path": "/home/sikmindz/projects/esp32-s3-lstm-proof"
+    },
+    {
+      "dirty_entries": [
+        " M esp32_s3_local_language_receipts.jsonl",
+        " M sensor_policy_s3_hard_test_receipt.json",
+        " M sensor_policy_s3_language_receipts.jsonl"
+      ],
+      "exists": true,
+      "git": true,
+      "head": "3f0268b03eb6bc93bdaa393eaaa092d0741ed3a7",
+      "origin": "https://github.com/RecursiveIntell/esp32-sensor-hub.git",
+      "path": "/home/sikmindz/projects/esp32-sensor-hub"
+    },
+    {
+      "dirty_entries": [],
+      "exists": true,
+      "git": true,
+      "head": "e6e4e9f9f29b233acc98a8c71af43e7e3cabb410",
+      "origin": "https://github.com/RecursiveIntell/esp32s3-edge-ai.git",
+      "path": "/home/sikmindz/projects/esp32s3-edge-ai"
+    },
+    {
+      "dirty_entries": [],
+      "exists": true,
+      "git": true,
+      "head": "873ef9d10142874018f89fc95cb8ed6355daac92",
+      "origin": "https://github.com/RecursiveIntell/tiered-edge-ai.git",
+      "path": "/home/sikmindz/projects/tiered-edge-ai"
+    },
+    {
+      "dirty_entries": [],
+      "exists": true,
+      "git": true,
+      "head": "19a7d0b93e7c3df317988fc7644cb23e754ca7a6",
+      "origin": "https://github.com/RecursiveIntell/esp32-max-lm-training.git",
+      "path": "/home/sikmindz/projects/esp32-max-lm-training"
+    },
+    {
+      "exists": true,
+      "git": false,
+      "path": "/home/sikmindz/projects/dying-llm"
+    },
+    {
+      "exists": true,
+      "git": false,
+      "path": "/home/sikmindz/projects/dying-llm-esp32s3-i2c"
+    }
+  ],
+  "schema": "ri_esp32s3_research_inventory_v1",
+  "scope_note": "Programmatic source inventory. Candidate documents were title/category/size indexed; authoritative and decision-relevant sources were read in full in the companion design report. Build artifacts and raw per-run logs are excluded; benchmark summary JSON is retained."
+}

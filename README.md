@@ -88,6 +88,11 @@ Results:
 
 This workspace proves deterministic contracts and no_std compile/test behavior. It does not certify OLED physical pixels, safety-critical actuation, production maturity, or model quality outside the canonical prompt set.
 
+## Single-board Sentinel design
+
+- [Independent single-board ESP32-S3 Sentinel architecture (2026-07-15)](docs/SINGLE_BOARD_SENTINEL_ARCHITECTURE_2026-07-15.md)
+- [Machine-readable ESP32-S3 research and artifact inventory](docs/ESP32S3_RESEARCH_INVENTORY_2026-07-15.json)
+
 ## License
 
 MIT OR Apache-2.0
