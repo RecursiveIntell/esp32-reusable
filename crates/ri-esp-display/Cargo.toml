@@ -23,5 +23,5 @@ include = [
 ]
 
 [dependencies]
-embedded-hal.workspace = true
-heapless.workspace = true
+embedded-hal = "1.0.0"
+heapless = "0.8"
