@@ -69,12 +69,12 @@ assert_eq!(receipt.local_language_prompt.as_str(), "high heat and humidity. acti
 
 ## Verification receipts
 
-Local gates run 2026-07-01:
+Historical local gates recorded for July 1, 2026 (the Python command assumes a sibling `esp32-sensor-hub` checkout):
 
 ```bash
 cargo test --workspace
 cargo +esp check --target xtensa-esp32s3-none-elf -Z build-std=core,alloc --workspace --lib
-python3 /home/sikmindz/projects/esp32-sensor-hub/tools/test_sensor_policy_s3_language.py --rounds 1 --timeout-s 5
+python3 ../esp32-sensor-hub/tools/test_sensor_policy_s3_language.py --rounds 1 --timeout-s 5
 ```
 
 Results:
@@ -82,7 +82,7 @@ Results:
 - Rust workspace: 36 tests passed before contract export; contract-export test added afterward and included in final gates.
 - ESP32-S3 no_std library check: passed.
 - Python sensor-hub hard test without hardware S3: 9 policy cases, 9 static bridge cases, 9 HTTP cases passed.
-- Previous hardware receipt: 24 real ESP32-S3 H320 p15 generations across 8 prompts passed. Source: `/home/sikmindz/projects/esp32-sensor-hub/sensor_policy_s3_hard_test_receipt.json`.
+- Previous hardware receipt: 24 real ESP32-S3 H320 p15 generations across 8 prompts passed. That hardware receipt was a machine-local generated file, not evidence bundled with this workspace; reproduce it with the sensor-hub harness before relying on it for another board.
 
 ## Claim boundary
 
