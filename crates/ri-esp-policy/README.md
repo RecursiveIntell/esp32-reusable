@@ -14,6 +14,7 @@ It depends on `ri-esp-core` only and is safe to use from firmware and host tests
 
 ```toml
 [dependencies]
+ri-esp-core = "0.1"
 ri-esp-policy = "0.1"
 ```
 
@@ -67,3 +68,4 @@ This crate is a reusable building block. It does not certify physical wiring, sa
 ## License
 
 MIT OR Apache-2.0
+
