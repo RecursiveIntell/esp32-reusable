@@ -15,6 +15,7 @@ It depends on `ri-esp-policy` and `heapless`; it represents language receipts, n
 ```toml
 [dependencies]
 ri-esp-local-language = "0.1"
+ri-esp-policy = "0.1"
 ```
 
 ## Quick start
@@ -65,3 +66,4 @@ This crate is a reusable building block. It does not certify physical wiring, sa
 ## License
 
 MIT OR Apache-2.0
+
