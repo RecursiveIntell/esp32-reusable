@@ -14,6 +14,8 @@ It depends on policy/local-language/tiered crates and joins them into route/prov
 
 ```toml
 [dependencies]
+ri-esp-core = "0.1"
+ri-esp-policy = "0.1"
 ri-esp-proof = "0.1"
 ```
 
@@ -68,3 +70,4 @@ This crate is a reusable building block. It does not certify physical wiring, sa
 ## License
 
 MIT OR Apache-2.0
+
