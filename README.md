@@ -1,5 +1,7 @@
 # ESP32 Reusable Crates
 
+<!-- last-verified: 2026-10-25 -->
+
 Reusable, no_std-first Rust crates distilled from RecursiveIntell ESP32/ESP32-S3 physical-AI experiments.
 
 ![ESP32 reusable crates architecture](assets/architecture.svg)
@@ -67,22 +69,30 @@ let receipt = engine.evaluate_with_policy("esp32-node", ctx, "gtx1070-local");
 assert_eq!(receipt.local_language_prompt.as_str(), "high heat and humidity. action is ");
 ```
 
-## Verification receipts
+## Verification
 
-Historical local gates recorded for July 1, 2026 (the Python command assumes a sibling `esp32-sensor-hub` checkout):
+The Rust workspace at base commit `757c4105f96a53bb73e29ee7bab24fdfca0238d1` was checked on 2026-10-25, before this README-only edit:
 
 ```bash
+cargo fmt --all -- --check
 cargo test --workspace
+cargo clippy --workspace --all-targets -- -D warnings
+```
+
+These three Rust checks passed locally; `cargo test --workspace` ran 35 tests with no failures. This is host-side Rust evidence, not ESP32 hardware or Xtensa-target validation. The test used the stable toolchain's Cargo binary directly because this environment's Cargo dispatcher routes Cargo tests through an offline worker.
+
+Historical integration checks recorded for July 1, 2026; these commands and results were not run for this README update. The Python command assumes a sibling `esp32-sensor-hub` checkout:
+
+```bash
 cargo +esp check --target xtensa-esp32s3-none-elf -Z build-std=core,alloc --workspace --lib
 python3 ../esp32-sensor-hub/tools/test_sensor_policy_s3_language.py --rounds 1 --timeout-s 5
 ```
 
-Results:
+The historical records reported:
 
-- Rust workspace: 36 tests passed before contract export; contract-export test added afterward and included in final gates.
-- ESP32-S3 no_std library check: passed.
-- Python sensor-hub hard test without hardware S3: 9 policy cases, 9 static bridge cases, 9 HTTP cases passed.
-- Previous hardware receipt: 24 real ESP32-S3 H320 p15 generations across 8 prompts passed. That hardware receipt was a machine-local generated file, not evidence bundled with this workspace; reproduce it with the sensor-hub harness before relying on it for another board.
+- ESP32-S3 no_std library check passed.
+- The Python sensor-hub hard test without hardware S3 passed 9 policy cases, 9 static bridge cases, and 9 HTTP cases.
+- A previous machine-local hardware receipt reported 24 real ESP32-S3 H320 p15 generations across 8 prompts. The receipt is not included in this repository; reproduce it with the sensor-hub harness before relying on it for another board.
 
 ## Claim boundary
 
