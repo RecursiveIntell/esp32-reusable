@@ -1,6 +1,6 @@
 # ESP32 Reusable Crates
 
-<!-- last-verified: 2026-10-25 -->
+<!-- last-verified: 2026-10-26 -->
 
 Reusable, no_std-first Rust crates distilled from RecursiveIntell ESP32/ESP32-S3 physical-AI experiments.
 
@@ -48,30 +48,50 @@ The sensor hub receiver now loads that contract instead of keeping a disconnecte
 
 ## Quick start
 
+Add the three crates used in this example to your application's `Cargo.toml`:
+
 ```toml
 [dependencies]
-ri-esp-core = "0.1"
-ri-esp-policy = "0.1"
-ri-esp-local-language = "0.1"
-ri-esp-proof = "0.1"
+ri-esp-core = "0.1.1"
+ri-esp-policy = "0.1.1"
+ri-esp-proof = "0.1.1"
 ```
+
+This complete host-side example evaluates one sensor reading and prints the
+receipt's routing decision and canonical prompt. Replace `"gateway"` with the
+route label used by your application; the library does not connect to that
+route or invoke an AI service.
 
 ```rust
 use ri_esp_core::EnvironmentReading;
 use ri_esp_policy::PolicyContext;
 use ri_esp_proof::{ProofConfig, ProofEngine};
 
-let sensor = EnvironmentReading::new(31.0, 70.0, None);
-let ctx = PolicyContext::new(sensor, 3_000).with_last_read_ms(2_900);
-let mut engine = ProofEngine::new(ProofConfig::default());
-let receipt = engine.evaluate_with_policy("esp32-node", ctx, "gtx1070-local");
+fn main() {
+    let sensor = EnvironmentReading::new(31.0, 70.0, None);
+    let ctx = PolicyContext::new(sensor, 3_000).with_last_read_ms(2_900);
+    let mut engine = ProofEngine::new(ProofConfig::default());
+    let receipt = engine.evaluate_with_policy("esp32-node", ctx, "gateway");
 
-assert_eq!(receipt.local_language_prompt.as_str(), "high heat and humidity. action is ");
+    assert_eq!(
+        receipt.local_language_prompt.as_str(),
+        "high heat and humidity. action is "
+    );
+    println!(
+        "{}: {}",
+        receipt.decision.as_str(),
+        receipt.local_language_prompt.as_str()
+    );
+}
 ```
+
+Run it with `cargo run` in the application's crate. For an already parsed
+`serde_json::Value`, use `Canonicalizer` or `canonicalize_flexible` directly.
+Use `ContentDigest::compute` when you need a digest for canonicalized content.
 
 ## Verification
 
-The Rust workspace at base commit `757c4105f96a53bb73e29ee7bab24fdfca0238d1` was checked on 2026-10-25, before this README-only edit:
+The Rust workspace at base commit `757c4105f96a53bb73e29ee7bab24fdfca0238d1` was checked on 2026-10-25. The README-only candidate leaves that source unchanged; the same host-side checks were rerun locally on 2026-10-26 for this documentation update:
 
 ```bash
 cargo fmt --all -- --check
@@ -79,7 +99,7 @@ cargo test --workspace
 cargo clippy --workspace --all-targets -- -D warnings
 ```
 
-These three Rust checks passed locally; `cargo test --workspace` ran 35 tests with no failures. This is host-side Rust evidence, not ESP32 hardware or Xtensa-target validation. The test used the stable toolchain's Cargo binary directly because this environment's Cargo dispatcher routes Cargo tests through an offline worker.
+The 2026-10-26 rerun of these three host-side checks passed; `cargo test --workspace` ran 35 tests with no failures. This is not ESP32 hardware or Xtensa-target validation. The test used the stable toolchain's Cargo binary directly because this environment's Cargo dispatcher routes Cargo tests through an offline worker.
 
 Historical integration checks recorded for July 1, 2026; these commands and results were not run for this README update. The Python command assumes a sibling `esp32-sensor-hub` checkout:
 
