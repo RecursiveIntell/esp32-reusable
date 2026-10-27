@@ -1,8 +1,10 @@
 # ri-esp-proof
 
+<!-- last-verified: 2026-10-26 -->
+
 Proof receipts for physical AI endpoints.
 
-![ri-esp-proof architecture](assets/architecture.svg)
+![ri-esp-proof architecture](https://raw.githubusercontent.com/RecursiveIntell/esp32-reusable/v0.1.1/crates/ri-esp-proof/assets/architecture.svg)
 
 ## What it provides
 
@@ -14,23 +16,38 @@ It depends on policy/local-language/tiered crates and joins them into route/prov
 
 ```toml
 [dependencies]
-ri-esp-core = "0.1"
-ri-esp-policy = "0.1"
-ri-esp-proof = "0.1"
+ri-esp-core = "0.1.1"
+ri-esp-policy = "0.1.1"
+ri-esp-proof = "0.1.1"
 ```
 
 ## Quick start
+
+This host-side example creates a receipt for one sensor reading. Replace
+`"gateway"` with the route label used by your application; this crate does not
+connect to that route or invoke an AI service.
 
 ```rust
 use ri_esp_core::EnvironmentReading;
 use ri_esp_policy::PolicyContext;
 use ri_esp_proof::{ProofConfig, ProofEngine};
 
-let sensor = EnvironmentReading::new(31.0, 70.0, None);
-let ctx = PolicyContext::new(sensor, 3_000).with_last_read_ms(2_900);
-let mut engine = ProofEngine::new(ProofConfig::default());
-let receipt = engine.evaluate_with_policy("esp32-node", ctx, "gtx1070-local");
-assert_eq!(receipt.local_language_prompt.as_str(), "high heat and humidity. action is ");
+fn main() {
+    let sensor = EnvironmentReading::new(31.0, 70.0, None);
+    let ctx = PolicyContext::new(sensor, 3_000).with_last_read_ms(2_900);
+    let mut engine = ProofEngine::new(ProofConfig::default());
+    let receipt = engine.evaluate_with_policy("esp32-node", ctx, "gateway");
+
+    assert_eq!(
+        receipt.local_language_prompt.as_str(),
+        "high heat and humidity. action is "
+    );
+    println!(
+        "{}: {}",
+        receipt.decision.as_str(),
+        receipt.local_language_prompt.as_str()
+    );
+}
 ```
 
 ## API shape
