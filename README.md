@@ -1,6 +1,6 @@
 # ESP32 Reusable Crates
 
-<!-- last-verified: 2026-10-26 -->
+<!-- last-verified: 2026-10-27 -->
 
 Reusable, no_std-first Rust crates distilled from RecursiveIntell ESP32/ESP32-S3 physical-AI experiments.
 
@@ -43,8 +43,6 @@ EnvironmentReading
 The shared JSON contract for C++/Python consumers lives at:
 
 `contracts/sensor_policy_s3_local_language_v1.json`
-
-The sensor hub receiver now loads that contract instead of keeping a disconnected prompt table.
 
 ## Quick start
 
@@ -89,15 +87,13 @@ Run it with `cargo run` in the application's crate.
 
 ## Verification
 
-The Rust workspace at base commit `757c4105f96a53bb73e29ee7bab24fdfca0238d1` was checked on 2026-10-25. The README-only candidate leaves that source unchanged; the same host-side checks were rerun locally on 2026-10-26 for this documentation update:
+The listed host-side checks were run on source snapshot `eab1568e95c919771a6e5a2ccd677bd8965c4872` on 2026-10-27. `cargo fmt --all -- --check` and `cargo clippy --workspace --all-targets -- -D warnings` passed locally. `cargo test --workspace` passed with 35 tests using the stable toolchain's Cargo binary; the local Cargo dispatcher attempt failed because its offline worker lacked the `heapless` index entry. These are host-side checks, not ESP32 hardware or Xtensa-target validation.
 
 ```bash
 cargo fmt --all -- --check
 cargo test --workspace
 cargo clippy --workspace --all-targets -- -D warnings
 ```
-
-The 2026-10-26 rerun of these three host-side checks passed; `cargo test --workspace` ran 35 tests with no failures. This is not ESP32 hardware or Xtensa-target validation. The test used the stable toolchain's Cargo binary directly because this environment's Cargo dispatcher routes Cargo tests through an offline worker.
 
 Historical integration checks recorded for July 1, 2026; these commands and results were not run for this README update. The Python command assumes a sibling `esp32-sensor-hub` checkout:
 
