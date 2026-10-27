@@ -85,9 +85,7 @@ fn main() {
 }
 ```
 
-Run it with `cargo run` in the application's crate. For an already parsed
-`serde_json::Value`, use `Canonicalizer` or `canonicalize_flexible` directly.
-Use `ContentDigest::compute` when you need a digest for canonicalized content.
+Run it with `cargo run` in the application's crate.
 
 ## Verification
 
