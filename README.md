@@ -1,6 +1,6 @@
 # ESP32 Reusable Crates
 
-<!-- last-verified: 2026-10-27 -->
+<!-- last-verified: 2026-10-28 -->
 
 Reusable, no_std-first Rust crates distilled from RecursiveIntell ESP32/ESP32-S3 physical-AI experiments.
 
@@ -21,14 +21,14 @@ This workspace turns one-off firmware work into small reusable crates:
 
 | crate | role |
 |---|---|
-| `ri-esp-core` | shared no_std readings, status enums, display/sensor traits |
-| `ri-esp-board-profiles` | ESP32/S3 board constants and known-bad pin guardrails |
-| `ri-esp-display` | HD44780+PCF8574 and ILI9341 display primitives |
-| `ri-esp-llm` | int4, KV cache, RNN, sampling, compressed attention primitives |
-| `ri-esp-tiered` | no_std fixed-capacity feature-transfer payloads |
-| `ri-esp-policy` | deterministic sensor-state -> canonical PromptId policy |
-| `ri-esp-local-language` | S3 p15 prompt/output and receipt contracts |
-| `ri-esp-proof` | route/provenance receipts and policy-aware proof flow |
+| [`ri-esp-core`](crates/ri-esp-core/README.md) | shared no_std readings, status enums, display/sensor traits |
+| [`ri-esp-board-profiles`](crates/ri-esp-board-profiles/README.md) | ESP32/S3 board constants and known-bad pin guardrails |
+| [`ri-esp-display`](crates/ri-esp-display/README.md) | HD44780+PCF8574 and ILI9341 display primitives |
+| [`ri-esp-llm`](crates/ri-esp-llm/README.md) | int4, KV cache, RNN, sampling, compressed attention primitives |
+| [`ri-esp-tiered`](crates/ri-esp-tiered/README.md) | no_std fixed-capacity feature-transfer payloads |
+| [`ri-esp-policy`](crates/ri-esp-policy/README.md) | deterministic sensor-state -> canonical PromptId policy |
+| [`ri-esp-local-language`](crates/ri-esp-local-language/README.md) | S3 p15 prompt/output and receipt contracts |
+| [`ri-esp-proof`](crates/ri-esp-proof/README.md) | route/provenance receipts and policy-aware proof flow |
 
 ## Current sensor-policy flow
 
@@ -43,6 +43,8 @@ EnvironmentReading
 The shared JSON contract for C++/Python consumers lives at:
 
 `contracts/sensor_policy_s3_local_language_v1.json`
+
+The contract's `source_receipt` field is environment-specific provenance metadata; consumers should not treat it as a portable path.
 
 ## Quick start
 
