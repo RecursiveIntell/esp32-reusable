@@ -1,6 +1,6 @@
 # ESP32 Reusable Crates
 
-<!-- last-verified: 2026-10-28 -->
+<!-- last-verified: 2026-10-29 -->
 
 Reusable, no_std-first Rust crates distilled from RecursiveIntell ESP32/ESP32-S3 physical-AI experiments.
 
@@ -84,6 +84,10 @@ fn main() {
     );
 }
 ```
+
+Expected success signal: the assertion passes and the program prints
+`forward_to_ai: high heat and humidity. action is`. The canonical prompt value
+ends with one trailing space, which may not be visible in terminal output.
 
 Run it with `cargo run` in the application's crate.
 
